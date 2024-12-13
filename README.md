@@ -1,3 +1,8 @@
-<h1>Baixe ou CLone</h1>
-<h1>Acesse o diretório padrão</h1>
-<h1>Execute o arquivo `main.py`</h1>
+<h1>Como Executar?</h1>
+
+> Primeiramente instale a biblioteca _reportlab_ com:
+```Python
+    pip install reportlab
+```
+
+> Depois execute o arquivo <strong>_main.py_</strong> na raiz do projeto e seja feliz!
