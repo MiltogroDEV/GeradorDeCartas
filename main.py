@@ -2,7 +2,7 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfbase import ttfonts
 from reportlab.pdfbase import pdfmetrics
-from reportlab.lib.colors import white, black, HexColor
+from reportlab.lib.colors import white, black
 
 # Mude abaixo para o local da sua fonte, caso contráario executará com a fonte padrão.
 # pdfmetrics.registerFont(ttfonts.TTFont('Fonte', 'C:\\exemplo.ttf'))
