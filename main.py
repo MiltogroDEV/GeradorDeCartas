@@ -4,12 +4,13 @@ from reportlab.pdfbase import ttfonts
 from reportlab.pdfbase import pdfmetrics
 from reportlab.lib.colors import white, black, HexColor
 
-pdfmetrics.registerFont(ttfonts.TTFont('Fonte1', 'C:\\windows\\fonts\\lucon.ttf'))
-pdfmetrics.registerFont(ttfonts.TTFont('Fonte2', 'C:\\users\\M I L T O G R O\\appdata\\local\\microsoft\\windows\\fonts\\balance groovy - sans.ttf'))
-pdfmetrics.registerFont(ttfonts.TTFont('Fonte3', 'C:\\users\\M I L T O G R O\\appdata\\local\\microsoft\\windows\\fonts\\mario-kart-ds.ttf'))
+# Mude abaixo para o local da sua fonte, caso contráario executará com a fonte padrão.
+# pdfmetrics.registerFont(ttfonts.TTFont('Fonte', 'C:\\exemplo.ttf'))
 
 cnv = canvas.Canvas("cartas.pdf", pagesize=A4)
-cnv.setFont("Fonte2", 8)
+# Caso tenha mudado o local da fonte, remova o comentário da linha 12 e comente a linha 13.
+# cnv.setFont("Fonte", 8) 
+cnv.setFontSize(8)
 
 def criarCarta(cnv, x, y, xS, yS, tipo, nome, *dicas):
     cnv.drawImage("Art/card.png", x, y, width=xS, height=yS)
