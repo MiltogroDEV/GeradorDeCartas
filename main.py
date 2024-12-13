@@ -1,4 +1,4 @@
-from reportlab.pdfgen import canvas # Baixe com "pip install reportlab"
+from reportlab.pdfgen import canvas
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfbase import ttfonts
 from reportlab.pdfbase import pdfmetrics
