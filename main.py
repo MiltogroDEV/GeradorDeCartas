@@ -13,7 +13,7 @@ cnv = canvas.Canvas("cartas.pdf", pagesize=A4)
 cnv.setFontSize(8)
 
 def criarCarta(cnv, x, y, xS, yS, tipo, nome, *dicas):
-    cnv.drawImage("Art/card.png", x, y, width=xS, height=yS)
+    cnv.drawImage("card.png", x, y, width=xS, height=yS)
     
     margem = 10
     espaco_linha = 11.1
