@@ -1,7 +1,7 @@
 <h1>Como Executar?</h1>
 
 > Primeiramente instale a biblioteca <strong>_reportlab_</strong> com:
-> ```Python
+```Python
     pip install reportlab
 ```
 
