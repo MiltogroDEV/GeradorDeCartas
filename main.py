@@ -34,9 +34,6 @@ def criarCarta(cnv, x, y, xS, yS, tipo, nome, *dicas):
         cnv.drawString(texto_x + 12, texto_y - 5, f"{dica}")
         texto_y -= espaco_linha
 
-        if dicas[:20]:
-            print(f"{i} tem 20 Dicas")
-
 x = 5
 y = 590
 xS = 190
